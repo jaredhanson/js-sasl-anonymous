@@ -1,7 +1,7 @@
 (function(root, factory) {
   if (typeof exports === 'object') {
     // CommonJS
-    factory(require('sasl-anonymous/lib/mechanism'));
+    factory(require('../lib/mechanism'));
   } else if (typeof define === 'function' && define.amd) {
     // AMD
     define(['sasl-anonymous/lib/mechanism'], factory);
